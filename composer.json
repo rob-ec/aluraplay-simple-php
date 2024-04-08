@@ -1,0 +1,21 @@
+{
+    "name": "rob/aluraplay",
+    "description": "Um sistema de vídeo aulas",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rob\\Aluraplay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robson M. Gomes",
+            "email": "robson.mesquita56@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
